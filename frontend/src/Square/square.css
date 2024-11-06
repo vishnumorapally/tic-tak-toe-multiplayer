@@ -1,0 +1,34 @@
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: #220168;
+    border-radius: 5px;
+  }
+  
+  .square:hover {
+    cursor: pointer;
+  }
+  
+  .not-allowed {
+    cursor: not-allowed !important;
+  }
+  
+  .circle-won {
+    background-color: tomato;
+  }
+  
+  .grey-background{
+    background-color: rgb(4, 2, 2) !important;
+  }
+  
+  .cross-won {
+    background-color: tomato;
+  }
+
+
+  @media screen and (max-width:400px) {
+    .square {
+        width: 80px;
+        height: 80px;
+    }
+  }
